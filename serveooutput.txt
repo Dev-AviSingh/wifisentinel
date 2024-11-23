@@ -1,0 +1,52 @@
+[H[2J[3J__________________________________________________                             
+.    __   ___  __        ___  __         ___ ___                               
+.   /__` |__  |__) \  / |__  /  \  |\ | |__   |                                
+.   .__/ |___ |  \  \/  |___ \__/ .| \| |___  |                                
+.                                                                              
+__________________________________________________                             
+.   ./serveo.sh // serveo.net easy commander v1                                         
+-------------------------------------------------                              
+. milio48 | pescyte | IDBTE4M | javcode | zerobyte                             
+__________________________________________________                             
+.                                                                              
+.     *ssh installed required*                                                 
+parameter : ./serveo.sh [http/tcp] [local port] [option]                                 
+.                                                                              
+     parameter [option] : 0 = request random port                              
+     parameter [option] : change = change http subdomain forwarded             
+     parameter [option] : 4869 = custom port number to forwarding (using tcp)  
+.                                                                              
+$ ./serveo.sh http  80 0             //localhost:80 forward to public https             
+.                                                                              
+.                                                                              
+$ ./serveo.sh tcp 4869 0             //random tcp port forwarding                       
+$ ./serveo.sh tcp 4869 1945          //custom tcp port forwarding                       
+.                                                                              
+__________________________________________________                             
+running : ./serveo.sh http 80 0
+__________________________________________________                             
+[32mForwarding HTTP traffic from https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net
+[0mHTTP request from 152.57.13.226 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/
+HTTP request from 152.57.13.226 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/devices
+HTTP request from 152.57.13.226 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/list_attacks
+HTTP request from 152.57.13.226 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/blacklist
+HTTP request from 152.57.13.226 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/favicon.ico
+HTTP request from 152.57.13.226 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/devices
+HTTP request from 152.57.13.226 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/list_attacks
+HTTP request from 152.57.13.226 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/blacklist
+HTTP request from 152.57.13.226 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/devices
+HTTP request from 152.57.13.226 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/list_attacks
+HTTP request from 152.57.13.226 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/blacklist
+HTTP request from 106.220.159.230 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/
+HTTP request from 106.220.159.230 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/devices
+HTTP request from 106.220.159.230 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/blacklist
+HTTP request from 106.220.159.230 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/list_attacks
+HTTP request from 106.220.159.230 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/devices
+HTTP request from 106.220.159.230 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/list_attacks
+HTTP request from 106.220.159.230 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/blacklist
+HTTP request from 106.220.159.230 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/devices
+HTTP request from 106.220.159.230 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/blacklist
+HTTP request from 106.220.159.230 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/list_attacks
+HTTP request from 106.220.159.230 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/devices
+HTTP request from 106.220.159.230 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/list_attacks
+HTTP request from 106.220.159.230 to https://a84bc3920fc44bc291bafcb3ef9e57e8.serveo.net/blacklist
